@@ -6,7 +6,7 @@ import Footer from './Footer';
 const layout = ({children}) => {
   return (
     <>
-    <main className='min-h-scren bg-DarkBackground'>
+    <main className='min-h-scren bg-black '>
       <Header/>
         <section>{children}</section>
       <Footer/>

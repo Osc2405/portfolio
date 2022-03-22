@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faGithub,faTwitter,faInstagram,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
+import {faGithub,faTwitter,faInstagram,faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import ContactForm from './ContactForm'
 
@@ -30,7 +30,16 @@ const Footer = () => {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
 
-          
+          <a
+            className=" transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-[#64ffda] duration-300"
+            href="https://www.linkedin.com/in/oscar-eduardo-rosero-ordo%C3%B1ez-875258191/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+
           <a
             className=" transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-[#64ffda] duration-300"
             href="https://www.instagram.com/oscarrosero1"

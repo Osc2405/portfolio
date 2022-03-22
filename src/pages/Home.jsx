@@ -2,7 +2,9 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Projects from '../components/Projects';
 
+
 const Home = () => {
+  
   return (
     <Layout>
       <>
@@ -27,7 +29,7 @@ const Home = () => {
       </div>
     </div>
     <div>
-      <Projects/>
+      <Projects number={6} />
     </div>
     
       </>

@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import axios from 'axios';
 
 
-const layout = ({children}) => {
+const Layout = ({children}) => {
   return (
     <>
     <main className='min-h-scren bg-black '>
@@ -16,4 +17,4 @@ const layout = ({children}) => {
   )
 }
 
-export default layout
+export default Layout

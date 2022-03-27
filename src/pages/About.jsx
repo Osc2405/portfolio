@@ -22,7 +22,7 @@ const About = () => {
             <div className='flex justify-center items-center'>
               <img
                 src={profilePicture}
-                alt='Profile picture'
+                alt='This is me'
                 className=' rounded-full w-1/2 border border-gray-200'
               />
             </div>

@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import axios from "axios";
 
 const Layout = ({ children }) => {
   return (

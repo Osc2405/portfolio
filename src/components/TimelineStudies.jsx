@@ -19,6 +19,7 @@ const TimelineStudies = () => {
             <a
               href='https://www.mintic.gov.co/portal/inicio/'
               target={"_blank"}
+              rel='noreferrer'
               className=' text-[#64ffda] hover:underline'>
               MinTIC
             </a>{" "}
@@ -26,6 +27,7 @@ const TimelineStudies = () => {
             <a
               href='https://www.uninorte.edu.co/'
               target={"_blank"}
+              rel='noreferrer'
               className='text-[#64ffda] hover:underline'>
               Universidad del Norte
             </a>{" "}
@@ -44,6 +46,7 @@ const TimelineStudies = () => {
             <a
               href='https://www.uao.edu.co/'
               target={"_blank"}
+              rel='noreferrer'
               className='text-[#64ffda] hover:underline'>
               Universidad Autonoma de Occidente
             </a>

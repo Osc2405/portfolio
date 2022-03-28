@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
   return (
     <>
-      <main className='min-h-scren bg-black font-serif'>
+      <main className='min-h-scren bg-black font-sans'>
         <Header />
         <section>{children}</section>
         <Footer />

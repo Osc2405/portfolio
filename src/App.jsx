@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Mywork from "./pages/Mywork";
 import Contact from "./pages/Contact";
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
         <Routes>
           <Route path='/portfolio' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/projects' element={<Projects />} />
+          <Route path='/projects' element={<Mywork />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>

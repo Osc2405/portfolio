@@ -76,10 +76,6 @@ const Footer = () => {
             </div>
           </div>
 
-          <p className='max-w-lg mx-auto text-xs'>
-            Hay que poner aqui alguna frase motivadora
-          </p>
-
           <p className='text-xs font-medium'>2022 Oscar Rosero</p>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
 
 const Projects = ({ number = 0 }) => {
   const [Repos, setRepos] = useState([]);
@@ -37,7 +36,7 @@ const Projects = ({ number = 0 }) => {
           {number === 0 &&
             Repos.map((dato) => {
               return (
-                <Link
+                <a
                   className='block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10'
                   to={dato.html_url}
                   target='_blank'>
@@ -63,16 +62,17 @@ const Projects = ({ number = 0 }) => {
                       );
                     })}
                   </div>
-                </Link>
+                </a>
               );
             })}
           {number > 0 &&
             Repos.slice(0, number).map((dato) => {
               return (
-                <Link
+                <a
                   className='block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10'
-                  to={dato.html_url}
-                  target='_blank'>
+                  href={dato.html_url}
+                  target='_blank'
+                  rel='noreferrer'>
                   <FontAwesomeIcon
                     icon={faGithub}
                     size='2x'
@@ -95,31 +95,9 @@ const Projects = ({ number = 0 }) => {
                       );
                     })}
                   </div>
-                </Link>
+                </a>
               );
             })}
-        </div>
-
-        <div className='mt-12 text-center'>
-          <Link
-            className='inline-flex items-center px-8 py-3 mt-8 text-white bg-teal-600 border border-teal-600 rounded hover:bg-transparent active:text-teal-500 focus:outline-none focus:ring'
-            to='/get-started'>
-            <span className='text-sm font-medium'> See more </span>
-
-            <svg
-              className='w-5 h-5 ml-3'
-              xmlns='http://www.w3.org/2000/svg'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'>
-              <path
-                stroke-linecap='round'
-                stroke-linejoin='round'
-                stroke-width='2'
-                d='M17 8l4 4m0 0l-4 4m4-4H3'
-              />
-            </svg>
-          </Link>
         </div>
       </div>
     </section>

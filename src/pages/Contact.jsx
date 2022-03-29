@@ -24,16 +24,16 @@ const Contact = () => {
           <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
             <div className='pt-3 md:pt-5 text-2xl'>
               <div className='block md:items-center md:text-center'>
-                <p className=' font-bold  pt-3'>Name:</p>
+                <p className=' font-bold  pt-3 text-3xl'>Name:</p>
                 <p className=' '>Oscar Eduardo Rosero Ordoñez</p>
 
-                <p className=' font-bold  pt-3'>Email:</p>
+                <p className=' font-bold  pt-3 text-3xl'>Email:</p>
                 <p className=''>orosero2405@gmail.com</p>
 
-                <p className=' font-bold  pt-3'>Number:</p>
+                <p className=' font-bold  pt-3 text-3xl'>Number:</p>
                 <p className=''>+57 311 397 8615</p>
 
-                <p className=' font-bold  pt-3'>City:</p>
+                <p className=' font-bold  pt-3 text-3xl'>City:</p>
                 <p className=' '>Yumbo - Valle del Cauca - Colombia</p>
               </div>
             </div>

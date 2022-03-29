@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Projects = ({ number = 0 }) => {
   const [Repos, setRepos] = useState([]);
   const URL =
-    "https://api.github.com/users/Osc2405/repos?sort=fork&direction=desc";
+    "https://api.github.com/users/Osc2405/repos?sort=pushed_at&direction=desc";
 
   useEffect(() => {
     Axios({

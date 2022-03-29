@@ -28,7 +28,7 @@ const Projects = ({ number = 0 }) => {
           <h2 className='text-3xl font-bold sm:text-4xl'>Projects:</h2>
 
           <p className='mt-4 text-gray-300'>
-            This are some of the things that I've created.
+            These are some of the things that I've created.
           </p>
         </div>
 
@@ -39,7 +39,8 @@ const Projects = ({ number = 0 }) => {
                 <a
                   className='block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10'
                   to={dato.html_url}
-                  target='_blank'>
+                  target='_blank'
+                  key={dato.id}>
                   <FontAwesomeIcon
                     icon={faGithub}
                     size='2x'
@@ -72,7 +73,8 @@ const Projects = ({ number = 0 }) => {
                   className='block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-teal-500/10 hover:border-teal-500/10'
                   href={dato.html_url}
                   target='_blank'
-                  rel='noreferrer'>
+                  rel='noreferrer'
+                  key={dato.id}>
                   <FontAwesomeIcon
                     icon={faGithub}
                     size='2x'

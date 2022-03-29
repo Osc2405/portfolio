@@ -12,7 +12,7 @@ const Home = () => {
           <div className='container px-3 mx-auto grid grid-cols-1 md:grid-cols-2 items-center'>
             <div className='items-start text-center md:text-left '>
               <p className='uppercase tracking-loose w-full text-white font-bold text-2xl'>
-                Hi. My name is
+                Hi. I am...
               </p>
               <p className='my-4 text-5xl font-bold leading-tight text-white'>
                 Oscar Rosero.
